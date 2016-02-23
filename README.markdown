@@ -1,8 +1,8 @@
 Description
 -----------
 
-[![Build Status](https://img.shields.io/travis/andreiz/php-zookeeper/master.svg?style=flat-square)](https://travis-ci.org/andreiz/php-zookeeper)
-[![Coveralls](https://img.shields.io/coveralls/andreiz/php-zookeeper.svg?style=flat-square)](https://coveralls.io/r/andreiz/php-zookeeper?branch=master)
+[![Build Status](https://img.shields.io/travis/Timandes/php-zookeeper/master.svg?style=flat-square)](https://travis-ci.org/Timandes/php-zookeeper)
+[![Coveralls](https://img.shields.io/coveralls/Timandes/php-zookeeper.svg?style=flat-square)](https://coveralls.io/r/Timandes/php-zookeeper?branch=master)
 
 This extension uses libzookeeper library to provide API for communicating with
 ZooKeeper service.
