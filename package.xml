@@ -15,18 +15,27 @@ http://pear.php.net/dtd/package-2.0.xsd">
   <email>andrei@php.net</email>
   <active>yes</active>
  </lead>
- <date>2012-01-13</date>
+ <date>2016-02-24</date>
  <version>
-  <release>0.2.1</release>
+  <release>0.3.0-no</release>
   <api>0.2.0</api>
  </version>
  <stability>
-  <release>beta</release>
+  <release>dev</release>
   <api>beta</api>
  </stability>
  <license uri="http://www.php.net/license">PHP</license>
  <notes>
-- Package up missed source files
+- GHPR #22: Respect null's when passed as values during set(), create(), and get().
+- GHPR #30: Fix null znode stat object.
+- GHPR #32: Added deleteNode method.
+- GHPR #42: Warning and cosmetic fixes.
+- GHPR #44: Update php_zookeeper.c.
+- GHPR #45: Return null after zoo_exists returning 0-length directly.
+- GHPR #48: Make extension compatible with Zookeeper 3.5.0alpha.
+- GHPR #54: Display ini entries in `phpinfo()`.
+- GHPR #60: Fix issue #27.
+- Add PHP7 support.
  </notes>
  <contents>
   <dir name="/">
@@ -49,7 +58,7 @@ http://pear.php.net/dtd/package-2.0.xsd">
   <required>
    <php>
     <min>5.2.0</min>
-    <max>6.0.0</max>
+    <max>7.0.3</max>
     <exclude>6.0.0</exclude>
    </php>
    <pearinstaller>
@@ -60,6 +69,24 @@ http://pear.php.net/dtd/package-2.0.xsd">
  <providesextension>zookeeper</providesextension>
  <extsrcrelease/>
  <changelog>
+  <release>
+   <stability><release>dev</release><api>beta</api></stability>
+   <version><release>0.3.0-no</release><api>0.2.0</api></version>
+   <date>2016-02-24</date>
+   <notes>
+- GHPR #22: Respect null's when passed as values during set(), create(), and get().
+- GHPR #30: Fix null znode stat object.
+- GHPR #32: Added deleteNode method.
+- GHPR #42: Warning and cosmetic fixes.
+- GHPR #44: Update php_zookeeper.c.
+- GHPR #45: Return null after zoo_exists returning 0-length directly.
+- GHPR #48: Make extension compatible with Zookeeper 3.5.0alpha.
+- GHPR #54: Display ini entries in `phpinfo()`.
+- GHPR #60: Fix issue #27.
+- Add PHP7 support.
+   </notes>
+  </release>
+
   <release>
    <stability><release>beta</release><api>beta</api></stability>
    <version><release>0.2.1</release><api>0.2.0</api></version>
